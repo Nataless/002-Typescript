@@ -1,4 +1,4 @@
-export default abstract class BooksField{
+export default abstract class BookRepository{
     
   abstract createBook(book: any): Promise<any>;
   
